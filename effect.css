@@ -1,0 +1,172 @@
+/* General */
+
+.dark-mode a {
+  color: white !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .footer {
+  background-color: #06152d !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-suggested {
+  background-color: #06152c !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-news {
+  background-color: #06152c !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-testimoni {
+  background-color: #06152c !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-testimoni-mobile {
+  background-color: #06152c !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-testimoni-big {
+  background-color: #06152c !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode {
+  color: white !important;
+  background-color: #040f20 !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .card-subtitle {
+  color: rgb(186, 186, 186) !important;
+}
+
+.dark-mode .logo_light {
+  display: none;
+}
+
+.logo_dark {
+  display: none;
+}
+
+.dark-mode .logo_dark {
+  display: initial !important;
+}
+
+.navbrand-dark {
+  display: none;
+}
+
+.dark-mode .navbrand-dark {
+  display: initial !important;
+  transition: background-color 0.2s ease-in;
+}
+
+.dark-mode .navbrand-light {
+  display: none;
+}
+
+/* Navbar */
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.geo-link:hover {
+  color: aliceblue;
+}
+
+.card-suggested:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .card-suggested-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-suggested-mobile {
+    display: none;
+  }
+}
+
+/* Featured section */
+.featured-img:hover {
+  transform: scale(1.1, 1.1);
+  filter: blur(0px);
+}
+
+.featured-text {
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+}
+
+.featured-text:hover {
+  top: 48%;
+}
+
+.featured-img:hover ~ .featured-text {
+  top: 48%;
+}
+
+.featured-img {
+  transition: all 0.5s ease;
+  filter: blur(2px);
+}
+
+@media screen and (max-width: 767px) {
+  .featured-content-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .featured-content-mobile {
+    display: none;
+  }
+}
+
+/* News section */
+@media screen and (max-width: 444px) {
+  .newsBtn-hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 445px) {
+  .newsBtn-hide-desktop {
+    display: none;
+  }
+}
+
+/* News section */
+.card-news:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+/* Testimoni section */
+.card-testimoni:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.card-testimoni-big:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+@media screen and (max-width: 990px) {
+  .testimoni-small-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .testimoni-small-mobile {
+    display: none;
+  }
+}
